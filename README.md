@@ -3,7 +3,7 @@
 Assumptions:
   * All Input structures contains strings(collection of bytes) instead of a rune(unicode representation)
   * Only Ascii Small Alphabets characters (a-z) will be used in input
-  * Slice are used as input parameters.But these are remain read only through the scope
+  * Slice are used as input parameters.But these are remain read only throughout the scope
   * Input keyword to be matched will not contain any trainling/leading spaces or any unwanted characters
   * Programs only prints the first occurrence of the input pattern. **NOT ALL**
   
@@ -20,7 +20,7 @@ Clone the folowing git repository and change directory to bruteForceMethod or di
 go run main.go
 ```
 
-By Default, sample input is present in main function(in main.go).This can be changed to try an other input.
+By Default, sample input is present in main function(in main.go).This can be changed to try any other input.
 
 ## Testing
 
