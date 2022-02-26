@@ -35,6 +35,23 @@ Four testcases are present in the test file.Two are Valid Scenarios(Netapp and C
 
 Sample Output Of test Files:
 ```
+C:\Users\****>go test ./... -v
+=== RUN   TestFindTheWord
+=== RUN   TestFindTheWord/valid
+x=5, y=15, count=8 found horizontally
+=== RUN   TestFindTheWord/valid#01
+x=10, y=2, count=17 found vertically
+=== RUN   TestFindTheWord/invalid
+    main_test.go:67: empty Input
+=== RUN   TestFindTheWord/invalid#01
+    main_test.go:67: empty Input
+--- PASS: TestFindTheWord (0.01s)
+    --- PASS: TestFindTheWord/valid (0.00s)
+    --- PASS: TestFindTheWord/valid#01 (0.00s)
+    --- PASS: TestFindTheWord/invalid (0.00s)
+    --- PASS: TestFindTheWord/invalid#01 (0.00s)
+PASS
+ok      playground/findaword/bruteForceMethod   0.141s
 === RUN   TestFindTheWord
 === RUN   TestFindTheWord/valid
 x=5, y=15, count=8 found horizontally
@@ -53,5 +70,5 @@ x=10, y=2, count=17 found vertically
     --- PASS: TestFindTheWord/invalid#01 (0.00s)
     --- PASS: TestFindTheWord/invalid#02 (0.00s)
 PASS
-ok      playground/findaword/differenceMethod   0.629s
+ok      playground/findaword/differenceMethod   0.153s
 ```
